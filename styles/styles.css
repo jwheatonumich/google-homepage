@@ -1,0 +1,14 @@
+#navbar{
+    display:flex;
+    align-items:center;
+    padding: 6px;
+}
+
+#right-navbar{
+    display:inline-block;
+    flex-grow: 1; /*Grows to fill the empty space in the flexbox*/
+}
+
+#right-navbar-inside{
+    float:right;
+}
