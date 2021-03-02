@@ -11,18 +11,42 @@
 #right-navbar{
     display:inline-block;
     flex-grow: 1; /*Grows to fill the empty space in the flexbox*/
+    align-items:center;
 }
 
 #right-navbar-inside{
     float:right;
+
+    display:flex;
+    align-content:center;
+}
+
+#right-nav-links-div{
+    display:block;
+
+    height: 40px;
+    line-height: 40px;
+}
+
+#right-nav-image-div{
+    display:block;
 }
 
 .right-nav-link{
-    padding:5px
+    display: inline-block;
+    padding:5px;
+    height:40px;
+    
+
 }
 
 .left-nav-link{
     padding:5px
+}
+
+.menu-image{
+    height:40px;
+    width:40px;
 }
 
 #logo-div{
