@@ -7,35 +7,51 @@
 
         <div id = "navbar">
             <div id = "left-navbar">
-                <a>About</a>
-                <a>Store</a>
+                <a class = "left-nav-link" >About</a>
+                <a class = "left-nav-link">Store</a>
             </div>
 
             <div id = "right-navbar">
                 <div id="right-navbar-inside">
-                    <a>Gmail</a>
-                    <a>Images</a>
+                    <a class = "right-nav-link">Gmail</a>
+                    <a class = "right-nav-link">Images</a>
                 </div>
             </div>
         </div>
 
-        <div>
-            <img src = "images/googlelogo_color_272x92dp.png">
-            <input>
-            <button type = "button>">Google Search</button>
-            <button type = "button>">I'm Feeling Lucky</button>
-        </div>
+            <div id = "logo-div"><img src = "images/googlelogo_color_272x92dp.png"></div>
+
+            <div id = "search-div">
+                <input id="search-bar">
+
+                <div id = "search-button-div">
+                    <button type = "button" class = "search-button">Google Search</button>
+                    <button type = "button>" class = "search-button">I'm Feeling Lucky</button>
+                </div>
+            </div>
 
         <div id="footer">
-            <a>Carbon neutral since 2007</a>
+            <div id = "footer-top-div">
+                <div>
+                    <img src = "images/leaf.png" id="leaf-image">
+                    <a>Carbon neutral since 2007</a>
+                </div>
+            </div>
 
-            <div>
-                <a>Advertising</a>
-                <a>Business</a>
-                <a>How Search works</a>
-                <a>Privacy</a>
-                <a>Terms</a>
-                <a>Settings</a>
+            <div id = "footer-bottom-div">
+
+                <div id = "bottom-left-div">
+                    <a class="bottom-link">Advertising</a>
+                    <a class="bottom-link">Business</a>
+                    <a class="bottom-link">How Search works</a>
+                </div>
+
+                <div id = "bottom-right-div">
+                    <a class="bottom-link">Privacy</a>
+                    <a class="bottom-link">Terms</a>
+                    <a class="bottom-link">Settings</a>
+                </div>
+
             </div>
         </div>
     </body>

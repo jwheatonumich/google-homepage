@@ -1,7 +1,11 @@
+* {
+    font-family: arial, sans-serif;
+}
+
 #navbar{
     display:flex;
     align-items:center;
-    padding: 6px;
+    padding: 20px;
 }
 
 #right-navbar{
@@ -11,4 +15,81 @@
 
 #right-navbar-inside{
     float:right;
+}
+
+.right-nav-link{
+    padding:5px
+}
+
+.left-nav-link{
+    padding:5px
+}
+
+#logo-div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    margin-top: 20px;
+}
+
+#search-div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#search-button-div{
+    padding: 10px;
+}
+
+#search-bar{
+    margin: 20px;
+    width:500px;
+    height:35px;
+}
+
+.search-button{
+    padding: 8px;
+    margin: 0px 5px 5px 4px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    background: rgb(248, 248, 248);
+}
+
+#footer-top-div{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    margin: 10px 0px 20px 0px;
+}
+
+#leaf-image{
+    height:14px;
+}
+
+#footer-bottom-div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#bottom-left-div{
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+#bottom-right-div{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.bottom-link{
+    padding:15px;
 }
