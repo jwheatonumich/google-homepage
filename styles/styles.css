@@ -1,11 +1,21 @@
 * {
     font-family: arial, sans-serif;
+    font-size:14px;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+#footer a{
+    color:#70757a;
 }
 
 #navbar{
     display:flex;
     align-items:center;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 #right-navbar{
@@ -36,8 +46,6 @@
     display: inline-block;
     padding:5px;
     height:40px;
-    
-
 }
 
 .left-nav-link{
@@ -74,8 +82,11 @@
 }
 
 .search-button{
-    padding: 8px;
+    padding: 12px;
     margin: 0px 5px 5px 4px;
+    background-color:#f8f9fa;
+    border:none;
+    color:#3c4043;
 }
 
 #footer{
